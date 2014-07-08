@@ -18,7 +18,7 @@
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="plugins">
-            <plugin name="card_io" value="card.io-iOS-SDK-PhoneGap"/>
+            <plugin name="CardIOPGPlugin" value="CardIOPGPlugin"/>
         </config-file>
 
         <source-file src="src/android/com/appgyver/plugin/card_io.java"
@@ -28,12 +28,12 @@
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*/plugins">
-            <plugin name="card_io" value="Echo" onload="true" />
+            <plugin name="CardIOPGPlugin" value="CardIOPGPlugin" onload="true" />
         </config-file>
 
         <config-file target="config.xml" parent="/widget">
-            <feature name="card_io">
-                <param name="ios-package" value="card_io"/>
+            <feature name="CardIOPGPlugin">
+                <param name="ios-package" value="CardIOPGPlugin"/>
                 <param name="onload" value="true" />
             </feature>
         </config-file>
