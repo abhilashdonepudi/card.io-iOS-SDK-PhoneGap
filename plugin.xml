@@ -9,7 +9,7 @@
         Card.IO Plugin for Steroids.js
     </description>
 
-    <asset src="www/CardIOPGPlugin.js" target="plugins/CardIOPGPlugin.js" />
+    <asset src="www/CardIOPGPlugin.js" target="CardIOPGPlugin.js" />
 
     <engines>
         <engine name="cordova" version=">=2.7.0" />
