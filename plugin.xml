@@ -3,7 +3,7 @@
         id="card_io-iOS-SDK-PhoneGap"
         version="1.0.0">
 
-    <name>CardIOPlugin</name>
+    <name>CardIOPGPlugin</name>
 
     <description>
         Card.IO Plugin for Steroids.js
